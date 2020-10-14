@@ -159,7 +159,7 @@ export default function App() {
       if (value[value.length - 4] === '+') {
         return;
       } else {
-        setValue(parseFloat(num + title).toString());
+        setValue(parseFloat(value + title).toString());
       }
     }
   };
