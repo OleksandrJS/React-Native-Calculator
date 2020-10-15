@@ -52,13 +52,11 @@ export default function App() {
 
     if (title === '%') {
       setValue((num / 100).toString());
-      setPrevValue(null);
-      setOperator(null);
       return;
     }
 
     if (title === '+/-') {
-      setValue(num * -1);
+      setValue((num * -1).toString());
       return;
     }
 
